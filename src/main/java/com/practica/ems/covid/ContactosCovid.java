@@ -255,7 +255,8 @@ public class ContactosCovid {
 
 	private PosicionPersona crearPosicionPersona(String[] data) {
 		PosicionPersona posicionPersona = new PosicionPersona();
-		String fecha = null, hora;
+		String fecha = null;
+		String hora =  null;
 		float latitud = 0, longitud;
 		for (int i = 1; i < Constantes.MAX_DATOS_LOCALIZACION; i++) {
 			String s = data[i];
